@@ -11,3 +11,12 @@
 
 ```bash
 roslaunch qr_vision_ros qr_system.launch
+
+## launch
+### qr_system.launch
+<launch>
+    <node pkg="qr_vision_ros"
+          type="qr_node.py"
+          name="qr_node"
+          output="screen"/>
+</launch>
