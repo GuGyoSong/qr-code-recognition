@@ -1,5 +1,5 @@
-# qr-code-recognition
-# QR Vision ROS System
+
+# qr-code-recognition# QR Vision ROS System
 
 ## 功能
 - 接收任务请求（TaskRequest）
@@ -11,4 +11,3 @@
 
 ```bash
 roslaunch qr_vision_ros qr_system.launch
-
